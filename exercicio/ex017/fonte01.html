@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: normal;
+            font-style: inherit;
+            text-decoration: underline;
+            /* lighter normal bold bolder */
+
+        }
+
+        h1 {
+
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: talic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad iste modi rem voluptas aut neque quo, minus animi commodi praesentium. Rerum, eligendi nobis. Commodi nisi animi labore eaque eius!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis repellat perspiciatis cupiditate voluptate amet earum facilis, dolorum dignissimos. Dolores ipsam atque vel iusto non, totam rem mollitia dolorum perspiciatis fuga!</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis exercitationem iusto, cum incidunt totam perferendis perspiciatis ab accusamus consectetur officiis maiores delectus labore quo facere repellendus? Dolorum, exercitationem possimus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis alias autem consectetur eos ducimus soluta. Natus, ea eaque debitis, architecto, dolor vel illo dicta modi veniam magni perferendis? Ipsa, ab.</p>
+</body>
+</html>
